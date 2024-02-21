@@ -8,8 +8,8 @@
 }
 
 :root {
-  --main-color: orangered;
-  --second-color: orange;
+  --main-color: #009900;
+  --second-color: rgb(76, 168, 76);
   --text-color: #444;
   --bg-color: #eeeff2;
 }
@@ -56,15 +56,16 @@ header img {
   text-decoration: none;
 }
 .header-btn a:hover {
-  background-color: purple;
+  background-color: limegreen;
   transition: 0.5s;
 }
 
 .home {
   width: 100%;
   height: 90vh;
-  background: url(images/Car\ Website\ –\ 1@2x.png);
-  background-position: center;
+  background: url(images/2019-Jeep-Wrangler-Green-small.png);
+  background-repeat: no-repeat;
+  background-position: right;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   align-items: center;
@@ -80,7 +81,7 @@ header img {
 }
 
 .text span {
-  color: orangered;
+  color: #009900;
 }
 .text p {
   margin: 15px;
@@ -135,7 +136,7 @@ header img {
   font-weight: bold;
 }
 .input-box button:hover {
-  background-color: purple;
+  background-color: limegreen;
   cursor: pointer;
   transition: 0.5s;
   scale: 0.95;
@@ -230,7 +231,7 @@ header img {
 }
 
 .services-container .box a {
-  background-color: blueviolet;
+  background-color: orange;
   color: #fff;
   padding: 10px;
   border-radius: 10px;
@@ -265,7 +266,7 @@ header img {
 }
 
 .about-text a {
-  background-color: blueviolet;
+  background-color: var(--main-color);
   color: #fff;
   text-decoration: none;
   padding: 5px;
@@ -273,7 +274,7 @@ header img {
 }
 
 .about-text a:hover {
-  background-color: var(--main-color);
+  background-color: limegreen;
   transition: 0.5s;
 }
 
@@ -291,7 +292,7 @@ header img {
 .rev-img img {
   width: 100%;
   height: 100%;
-  border: 2px solid red;
+  border: 2px solid orange;
   border-radius: 50%;
 }
 
@@ -313,7 +314,7 @@ header img {
 }
 
 .newsletter {
-  background: linear-gradient(orangered, orange);
+  background: linear-gradient(rgba(26, 255, 0, 0.412), orange);
   margin-top: 40px;
   padding: 10px;
   display: flex;
@@ -345,7 +346,7 @@ header img {
 }
 
 .newsletter .mail-box a {
-  background-color: blueviolet;
+  background-color: var(--main-color);
   color: #fff;
   text-decoration: none;
   border-radius: 10px;
@@ -354,14 +355,14 @@ header img {
 .newsletter .mail-box a:hover {
   scale: 1.03;
   transition: 0.5s;
-  background: var(--main-color);
+  background: limegreen;
 }
 
 .copyright {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: red;
+  background-color: orange;
   color: #fff;
   border-top: 1px solid #fff;
   padding: 20px;
